@@ -62,23 +62,6 @@ struct MovieSearchView: View {
     }
 }
 
-fileprivate extension String {
-    func nextLoadingEllipsis() -> String {
-        switch self {
-        case "   ":
-            return ".  "
-        case ".  ":
-            return ".. "
-        case ".. ":
-            return "..."
-        case "...":
-            return "   "
-        default:
-            return "   "
-        }
-    }
-}
-
 struct MovieSearchView_Previews: PreviewProvider {
     static var previews: some View {
         MovieSearchView()

@@ -41,10 +41,10 @@ struct MoviePlaylistView: View {
                         Rectangle()
                             .cornerRadius(10.0)
                             .frame(width: 260, height: 140, alignment: .center)
-                            .foregroundColor(Color(UIColor.secondarySystemBackground.cgColor))
+                            .foregroundColor(Color.secondarySystemBackground)
                         VStack {
                             Text("Ok, added!")
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 .font(.system(size: 16, weight: .bold, design: .default))
                             Text("My favorite color is blue")
                                 .foregroundColor(.blue)
